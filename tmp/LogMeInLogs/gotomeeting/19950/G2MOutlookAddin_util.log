@@ -1,5 +1,0 @@
-register_x64() - registered x64
-DllRegisterServer() - enter
-Register G2M Outlook AddIn ander HKCU
-DllRegisterServer() - exit
-G2M Outlook Addin unloaded
