@@ -1,0 +1,912 @@
+﻿2023-01-07 04:47:02.275 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-07 04:47:02.277 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-07 04:47:02.285 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-07 04:47:02.287 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-07 04:47:02.295 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-07 04:47:02.297 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-07 04:47:02.300 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-07 04:47:02.303 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-07 04:47:02.307 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-07 04:47:02.309 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-07 04:47:02.309 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-07 04:47:02.310 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-07 04:47:02.310 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-07 04:47:02.311 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-07 04:47:02.312 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-07 04:47:02.312 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-07 04:47:02.313 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-07 04:47:02.314 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-07 04:47:02.314 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-07 04:47:02.315 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-07 04:47:02.316 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-07 04:47:02.317 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-07 04:47:02.319 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-07 04:47:02.324 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-07 04:47:02.324 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-07 04:47:02.338 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-07 04:47:02.348 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-07 04:47:02.349 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-07 04:47:02.349 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-07 04:47:02.350 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-07 04:47:02.351 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-07 04:47:02.351 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-07 04:47:02.353 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-07 04:47:02.355 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-07 04:47:02.359 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-07 04:47:02.458 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-07 04:47:02.459 PST i: [g2mupload] <main> Nothing to send
+2023-01-07 04:47:02.486 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-07 04:47:03.098 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-07 04:47:03.098 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-07 04:47:03.103 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-07 04:47:03.104 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-07 04:47:03.104 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-07 04:47:03.105 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-07 04:47:03.105 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-07 04:47:03.106 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-07 15:19:57.964 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-07 15:19:57.966 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-07 15:19:57.968 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-07 15:19:57.969 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-07 15:19:57.970 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-07 15:19:57.971 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-07 15:19:57.972 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-07 15:19:57.976 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-07 15:19:58.004 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-07 15:19:58.005 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-07 15:19:58.008 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-07 15:19:58.013 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-07 15:19:58.017 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-07 15:19:58.023 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-07 15:19:58.024 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-07 15:19:58.026 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-07 15:19:58.028 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-07 15:19:58.029 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-07 15:19:58.031 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-07 15:19:58.031 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-07 15:19:58.033 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-07 15:19:58.038 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-07 15:19:58.040 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-07 15:19:58.042 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-07 15:19:58.042 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-07 15:19:58.045 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-07 15:19:58.049 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-07 15:19:58.050 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-07 15:19:58.053 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-07 15:19:58.054 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-07 15:19:58.058 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-07 15:19:58.063 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-07 15:19:58.082 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-07 15:19:58.083 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-07 15:19:58.083 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-07 15:19:58.214 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-07 15:19:58.215 PST i: [g2mupload] <main> Nothing to send
+2023-01-07 15:19:58.248 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-07 15:20:00.194 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-07 15:20:00.195 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-07 15:20:00.205 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-07 15:20:00.205 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-07 15:20:00.206 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-07 15:20:00.207 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-07 15:20:00.208 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-07 15:20:00.208 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-07 16:47:01.772 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-07 16:47:01.773 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-07 16:47:01.775 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-07 16:47:01.775 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-07 16:47:01.776 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-07 16:47:01.777 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-07 16:47:01.777 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-07 16:47:01.778 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-07 16:47:01.780 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-07 16:47:01.780 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-07 16:47:01.780 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-07 16:47:01.780 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-07 16:47:01.781 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-07 16:47:01.781 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-07 16:47:01.781 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-07 16:47:01.782 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-07 16:47:01.782 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-07 16:47:01.782 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-07 16:47:01.783 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-07 16:47:01.783 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-07 16:47:01.784 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-07 16:47:01.784 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-07 16:47:01.784 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-07 16:47:01.786 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-07 16:47:01.786 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-07 16:47:01.787 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-07 16:47:01.790 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-07 16:47:01.790 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-07 16:47:01.790 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-07 16:47:01.791 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-07 16:47:01.791 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-07 16:47:01.792 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-07 16:47:01.793 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-07 16:47:01.794 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-07 16:47:01.794 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-07 16:47:01.897 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-07 16:47:01.898 PST i: [g2mupload] <main> Nothing to send
+2023-01-07 16:47:01.925 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-07 16:47:02.279 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-07 16:47:02.280 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-07 16:47:02.288 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-07 16:47:02.289 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-07 16:47:02.293 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-07 16:47:02.294 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-07 16:47:02.300 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-07 16:47:02.300 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-07 18:47:01.774 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-07 18:47:01.776 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-07 18:47:01.777 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-07 18:47:01.778 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-07 18:47:01.778 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-07 18:47:01.779 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-07 18:47:01.779 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-07 18:47:01.780 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-07 18:47:01.781 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-07 18:47:01.781 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-07 18:47:01.782 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-07 18:47:01.782 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-07 18:47:01.782 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-07 18:47:01.783 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-07 18:47:01.783 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-07 18:47:01.784 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-07 18:47:01.784 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-07 18:47:01.784 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-07 18:47:01.785 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-07 18:47:01.785 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-07 18:47:01.785 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-07 18:47:01.786 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-07 18:47:01.786 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-07 18:47:01.787 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-07 18:47:01.788 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-07 18:47:01.789 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-07 18:47:01.792 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-07 18:47:01.792 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-07 18:47:01.793 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-07 18:47:01.793 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-07 18:47:01.793 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-07 18:47:01.794 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-07 18:47:01.794 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-07 18:47:01.795 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-07 18:47:01.795 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-07 18:47:01.869 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-07 18:47:01.869 PST i: [g2mupload] <main> Nothing to send
+2023-01-07 18:47:01.889 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-07 18:47:02.213 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-07 18:47:02.214 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-07 18:47:02.218 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-07 18:47:02.218 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-07 18:47:02.219 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-07 18:47:02.220 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-07 18:47:02.221 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-07 18:47:02.221 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-07 20:47:02.014 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-07 20:47:02.015 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-07 20:47:02.016 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-07 20:47:02.017 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-07 20:47:02.018 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-07 20:47:02.018 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-07 20:47:02.019 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-07 20:47:02.019 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-07 20:47:02.022 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-07 20:47:02.023 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-07 20:47:02.023 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-07 20:47:02.024 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-07 20:47:02.024 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-07 20:47:02.025 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-07 20:47:02.025 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-07 20:47:02.025 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-07 20:47:02.026 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-07 20:47:02.026 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-07 20:47:02.027 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-07 20:47:02.027 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-07 20:47:02.027 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-07 20:47:02.028 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-07 20:47:02.028 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-07 20:47:02.030 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-07 20:47:02.030 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-07 20:47:02.032 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-07 20:47:02.036 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-07 20:47:02.038 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-07 20:47:02.038 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-07 20:47:02.038 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-07 20:47:02.039 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-07 20:47:02.039 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-07 20:47:02.040 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-07 20:47:02.041 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-07 20:47:02.041 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-07 20:47:02.125 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-07 20:47:02.126 PST i: [g2mupload] <main> Nothing to send
+2023-01-07 20:47:02.133 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-07 20:47:02.161 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-07 20:47:02.162 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-07 20:47:02.167 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-07 20:47:02.168 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-07 20:47:02.168 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-07 20:47:02.169 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-07 20:47:02.170 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-07 20:47:02.170 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-07 23:54:27.737 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-07 23:54:27.739 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-07 23:54:27.741 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-07 23:54:27.741 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-07 23:54:27.742 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-07 23:54:27.743 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-07 23:54:27.743 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-07 23:54:27.744 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-07 23:54:27.750 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-07 23:54:27.751 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-07 23:54:27.751 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-07 23:54:27.752 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-07 23:54:27.752 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-07 23:54:27.753 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-07 23:54:27.753 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-07 23:54:27.754 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-07 23:54:27.754 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-07 23:54:27.754 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-07 23:54:27.755 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-07 23:54:27.755 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-07 23:54:27.756 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-07 23:54:27.756 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-07 23:54:27.757 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-07 23:54:27.759 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-07 23:54:27.759 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-07 23:54:27.761 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-07 23:54:27.766 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-07 23:54:27.766 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-07 23:54:27.767 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-07 23:54:27.767 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-07 23:54:27.768 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-07 23:54:27.768 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-07 23:54:27.769 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-07 23:54:27.770 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-07 23:54:27.771 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-07 23:54:27.867 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-07 23:54:27.868 PST i: [g2mupload] <main> Nothing to send
+2023-01-07 23:54:27.899 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-07 23:54:28.044 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-07 23:54:28.045 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-07 23:54:28.052 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-07 23:54:28.052 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-07 23:54:28.053 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-07 23:54:28.053 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-07 23:54:28.054 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-07 23:54:28.055 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-08 00:47:01.718 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-08 00:47:01.718 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-08 00:47:01.720 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-08 00:47:01.720 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-08 00:47:01.721 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-08 00:47:01.721 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-08 00:47:01.722 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-08 00:47:01.722 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-08 00:47:01.723 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-08 00:47:01.724 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-08 00:47:01.724 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-08 00:47:01.724 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-08 00:47:01.724 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-08 00:47:01.725 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-08 00:47:01.725 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-08 00:47:01.726 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-08 00:47:01.726 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-08 00:47:01.726 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-08 00:47:01.727 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-08 00:47:01.727 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-08 00:47:01.728 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-08 00:47:01.728 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-08 00:47:01.728 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-08 00:47:01.730 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-08 00:47:01.730 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-08 00:47:01.731 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-08 00:47:01.734 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-08 00:47:01.734 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-08 00:47:01.735 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-08 00:47:01.735 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-08 00:47:01.735 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-08 00:47:01.736 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-08 00:47:01.736 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-08 00:47:01.737 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-08 00:47:01.737 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-08 00:47:01.806 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-08 00:47:01.807 PST i: [g2mupload] <main> Nothing to send
+2023-01-08 00:47:01.832 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-08 00:47:02.170 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-08 00:47:02.171 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-08 00:47:02.175 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-08 00:47:02.175 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-08 00:47:02.176 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-08 00:47:02.177 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-08 00:47:02.178 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-08 00:47:02.178 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-08 16:23:58.637 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-08 16:23:58.638 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-08 16:23:58.640 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-08 16:23:58.641 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-08 16:23:58.642 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-08 16:23:58.643 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-08 16:23:58.643 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-08 16:23:58.644 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-08 16:23:58.667 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-08 16:23:58.668 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-08 16:23:58.668 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-08 16:23:58.668 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-08 16:23:58.669 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-08 16:23:58.670 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-08 16:23:58.670 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-08 16:23:58.671 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-08 16:23:58.673 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-08 16:23:58.675 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-08 16:23:58.675 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-08 16:23:58.678 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-08 16:23:58.678 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-08 16:23:58.679 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-08 16:23:58.680 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-08 16:23:58.682 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-08 16:23:58.688 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-08 16:23:58.691 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-08 16:23:58.696 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-08 16:23:58.697 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-08 16:23:58.697 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-08 16:23:58.698 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-08 16:23:58.701 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-08 16:23:58.701 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-08 16:23:58.702 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-08 16:23:58.703 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-08 16:23:58.705 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-08 16:23:58.812 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-08 16:23:58.813 PST i: [g2mupload] <main> Nothing to send
+2023-01-08 16:23:58.834 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-08 16:23:59.063 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-08 16:23:59.066 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-08 16:23:59.072 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-08 16:23:59.074 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-08 16:23:59.075 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-08 16:23:59.077 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-08 16:23:59.078 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-08 16:23:59.078 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-08 16:47:01.979 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-08 16:47:01.980 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-08 16:47:01.981 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-08 16:47:01.982 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-08 16:47:01.982 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-08 16:47:01.983 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-08 16:47:01.983 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-08 16:47:01.984 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-08 16:47:01.985 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-08 16:47:01.986 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-08 16:47:01.986 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-08 16:47:01.986 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-08 16:47:01.987 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-08 16:47:01.987 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-08 16:47:01.987 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-08 16:47:01.988 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-08 16:47:01.988 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-08 16:47:01.989 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-08 16:47:01.989 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-08 16:47:01.989 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-08 16:47:01.990 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-08 16:47:01.990 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-08 16:47:01.991 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-08 16:47:01.992 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-08 16:47:01.993 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-08 16:47:01.994 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-08 16:47:01.998 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-08 16:47:01.998 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-08 16:47:01.999 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-08 16:47:01.999 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-08 16:47:02.000 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-08 16:47:02.000 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-08 16:47:02.000 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-08 16:47:02.002 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-08 16:47:02.002 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-08 16:47:02.083 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-08 16:47:02.084 PST i: [g2mupload] <main> Nothing to send
+2023-01-08 16:47:02.094 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-08 16:47:02.658 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-08 16:47:02.659 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-08 16:47:02.663 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-08 16:47:02.663 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-08 16:47:02.664 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-08 16:47:02.664 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-08 16:47:02.665 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-08 16:47:02.665 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-08 18:47:02.136 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-08 18:47:02.137 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-08 18:47:02.138 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-08 18:47:02.139 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-08 18:47:02.139 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-08 18:47:02.139 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-08 18:47:02.140 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-08 18:47:02.140 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-08 18:47:02.141 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-08 18:47:02.142 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-08 18:47:02.142 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-08 18:47:02.142 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-08 18:47:02.143 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-08 18:47:02.143 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-08 18:47:02.143 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-08 18:47:02.144 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-08 18:47:02.144 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-08 18:47:02.144 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-08 18:47:02.145 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-08 18:47:02.145 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-08 18:47:02.146 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-08 18:47:02.146 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-08 18:47:02.146 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-08 18:47:02.147 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-08 18:47:02.148 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-08 18:47:02.149 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-08 18:47:02.152 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-08 18:47:02.153 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-08 18:47:02.153 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-08 18:47:02.153 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-08 18:47:02.154 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-08 18:47:02.154 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-08 18:47:02.154 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-08 18:47:02.155 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-08 18:47:02.155 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-08 18:47:02.227 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-08 18:47:02.227 PST i: [g2mupload] <main> Nothing to send
+2023-01-08 18:47:02.253 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-08 18:47:02.557 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-08 18:47:02.558 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-08 18:47:02.562 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-08 18:47:02.562 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-08 18:47:02.563 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-08 18:47:02.563 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-08 18:47:02.563 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-08 18:47:02.564 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-09 04:35:34.981 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-09 04:35:34.981 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-09 04:35:34.981 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-09 04:35:34.981 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-09 04:35:34.981 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-09 04:35:34.981 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-09 04:35:34.981 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-09 04:35:34.997 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-09 04:35:35.013 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-09 04:35:35.013 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-09 04:35:35.013 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-09 04:35:35.013 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-09 04:35:35.028 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-09 04:35:35.028 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-09 04:35:35.028 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-09 04:35:35.028 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-09 04:35:35.028 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-09 04:35:35.028 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-09 04:35:35.028 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-09 04:35:35.028 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-09 04:35:35.028 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-09 04:35:35.028 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-09 04:35:35.028 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-09 04:35:35.028 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-09 04:35:35.028 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-09 04:35:35.028 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-09 04:35:35.044 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-09 04:35:35.044 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-09 04:35:35.044 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-09 04:35:35.044 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-09 04:35:35.044 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-09 04:35:35.044 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-09 04:35:35.044 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-09 04:35:35.044 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-09 04:35:35.044 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-09 04:35:35.247 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-09 04:35:35.247 PST i: [g2mupload] <main> Nothing to send
+2023-01-09 04:35:35.293 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-09 04:35:36.095 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-09 04:35:36.095 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-09 04:35:36.126 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-09 04:35:36.126 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-09 04:35:36.126 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-09 04:35:36.126 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-09 04:35:36.142 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-09 04:35:36.142 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-09 05:04:30.258 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-09 05:04:30.258 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-09 05:04:30.258 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-09 05:04:30.258 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-09 05:04:30.258 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-09 05:04:30.258 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-09 05:04:30.258 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-09 05:04:30.258 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-09 05:04:30.258 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-09 05:04:30.258 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-09 05:04:30.258 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-09 05:04:30.258 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-09 05:04:30.258 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-09 05:04:30.258 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-09 05:04:30.258 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-09 05:04:30.258 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-09 05:04:30.274 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-09 05:04:30.274 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-09 05:04:30.274 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-09 05:04:30.274 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-09 05:04:30.274 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-09 05:04:30.274 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-09 05:04:30.274 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-09 05:04:30.274 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-09 05:04:30.274 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-09 05:04:30.274 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-09 05:04:30.274 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-09 05:04:30.274 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-09 05:04:30.274 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-09 05:04:30.274 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-09 05:04:30.274 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-09 05:04:30.274 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-09 05:04:30.274 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-09 05:04:30.289 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-09 05:04:30.289 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-09 05:04:30.395 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-09 05:04:30.395 PST i: [g2mupload] <main> Nothing to send
+2023-01-09 05:04:30.395 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-09 05:04:30.458 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-09 05:04:30.458 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-09 05:04:30.489 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-09 05:04:30.489 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-09 05:04:30.489 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-09 05:04:30.489 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-09 05:04:30.489 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-09 05:04:30.489 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-09 08:39:52.863 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-09 08:39:52.964 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-09 08:39:52.977 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-09 08:39:52.984 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-09 08:39:52.984 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-09 08:39:52.984 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-09 08:39:52.984 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-09 08:39:52.990 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-09 08:39:53.051 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-09 08:39:53.051 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-09 08:39:53.051 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-09 08:39:53.051 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-09 08:39:53.051 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-09 08:39:53.051 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-09 08:39:53.051 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-09 08:39:53.051 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-09 08:39:53.051 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-09 08:39:53.051 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-09 08:39:53.051 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-09 08:39:53.051 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-09 08:39:53.051 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-09 08:39:53.051 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-09 08:39:53.051 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-09 08:39:53.051 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-09 08:39:53.066 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-09 08:39:53.066 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-09 08:39:53.066 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-09 08:39:53.066 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-09 08:39:53.066 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-09 08:39:53.066 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-09 08:39:53.066 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-09 08:39:53.082 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-09 08:39:53.082 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-09 08:39:53.082 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-09 08:39:53.084 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-09 08:39:53.323 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-09 08:39:53.323 PST i: [g2mupload] <main> Nothing to send
+2023-01-09 08:39:53.354 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-09 08:39:53.890 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-09 08:39:53.890 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-09 08:39:53.900 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-09 08:39:53.900 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-09 08:39:53.900 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-09 08:39:53.900 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-09 08:39:53.900 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-09 08:39:53.900 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-09 08:47:02.700 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-09 08:47:02.700 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-09 08:47:02.700 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-09 08:47:02.700 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-09 08:47:02.700 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-09 08:47:02.700 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-09 08:47:02.700 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-09 08:47:02.716 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-09 08:47:02.716 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-09 08:47:02.716 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-09 08:47:02.716 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-09 08:47:02.716 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-09 08:47:02.716 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-09 08:47:02.716 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-09 08:47:02.716 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-09 08:47:02.716 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-09 08:47:02.785 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-09 08:47:02.785 PST i: [g2mupload] <main> Nothing to send
+2023-01-09 08:47:02.800 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-09 08:47:03.079 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-09 08:47:03.079 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-09 08:47:03.079 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-09 08:47:03.079 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-09 08:47:03.079 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-09 08:47:03.079 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-09 08:47:03.085 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-09 08:47:03.085 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-09 16:47:03.007 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-09 16:47:03.008 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-09 16:47:03.012 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-09 16:47:03.012 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-09 16:47:03.018 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-09 16:47:03.018 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-09 16:47:03.020 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-09 16:47:03.023 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-09 16:47:03.026 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-09 16:47:03.028 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-09 16:47:03.029 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-09 16:47:03.029 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-09 16:47:03.030 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-09 16:47:03.030 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-09 16:47:03.031 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-09 16:47:03.031 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-09 16:47:03.032 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-09 16:47:03.032 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-09 16:47:03.032 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-09 16:47:03.033 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-09 16:47:03.035 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-09 16:47:03.036 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-09 16:47:03.038 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-09 16:47:03.042 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-09 16:47:03.042 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-09 16:47:03.059 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-09 16:47:03.065 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-09 16:47:03.067 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-09 16:47:03.067 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-09 16:47:03.068 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-09 16:47:03.068 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-09 16:47:03.068 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-09 16:47:03.070 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-09 16:47:03.073 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-09 16:47:03.074 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-09 16:47:03.183 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-09 16:47:03.184 PST i: [g2mupload] <main> Nothing to send
+2023-01-09 16:47:03.197 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-09 16:47:03.848 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-09 16:47:03.849 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-09 16:47:03.854 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-09 16:47:03.855 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-09 16:47:03.855 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-09 16:47:03.856 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-09 16:47:03.856 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-09 16:47:03.857 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-09 18:47:02.232 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-09 18:47:02.233 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-09 18:47:02.234 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-09 18:47:02.235 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-09 18:47:02.237 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-09 18:47:02.237 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-09 18:47:02.238 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-09 18:47:02.238 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-09 18:47:02.240 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-09 18:47:02.240 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-09 18:47:02.241 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-09 18:47:02.241 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-09 18:47:02.241 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-09 18:47:02.242 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-09 18:47:02.243 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-09 18:47:02.243 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-09 18:47:02.244 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-09 18:47:02.244 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-09 18:47:02.244 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-09 18:47:02.245 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-09 18:47:02.245 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-09 18:47:02.246 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-09 18:47:02.246 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-09 18:47:02.248 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-09 18:47:02.248 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-09 18:47:02.251 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-09 18:47:02.255 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-09 18:47:02.256 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-09 18:47:02.256 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-09 18:47:02.256 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-09 18:47:02.257 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-09 18:47:02.257 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-09 18:47:02.257 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-09 18:47:02.258 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-09 18:47:02.259 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-09 18:47:02.341 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-09 18:47:02.342 PST i: [g2mupload] <main> Nothing to send
+2023-01-09 18:47:02.348 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-09 18:47:02.511 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-09 18:47:02.511 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-09 18:47:02.517 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-09 18:47:02.517 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-09 18:47:02.519 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-09 18:47:02.519 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-09 18:47:02.523 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-09 18:47:02.523 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-10 08:35:44.843 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-10 08:35:44.845 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-10 08:35:44.846 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-10 08:35:44.847 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-10 08:35:44.847 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-10 08:35:44.848 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-10 08:35:44.849 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-10 08:35:44.849 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-10 08:35:44.880 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-10 08:35:44.881 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-10 08:35:44.885 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-10 08:35:44.886 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-10 08:35:44.888 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-10 08:35:44.892 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-10 08:35:44.895 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-10 08:35:44.896 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-10 08:35:44.896 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-10 08:35:44.897 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-10 08:35:44.900 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-10 08:35:44.902 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-10 08:35:44.903 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-10 08:35:44.904 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-10 08:35:44.905 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-10 08:35:44.906 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-10 08:35:44.907 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-10 08:35:44.909 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-10 08:35:44.913 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-10 08:35:44.914 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-10 08:35:44.914 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-10 08:35:44.914 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-10 08:35:44.915 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-10 08:35:44.916 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-10 08:35:44.916 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-10 08:35:44.917 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-10 08:35:44.917 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-10 08:35:45.070 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-10 08:35:45.071 PST i: [g2mupload] <main> Nothing to send
+2023-01-10 08:35:45.081 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-10 08:35:46.269 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-10 08:35:46.269 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-10 08:35:46.275 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-10 08:35:46.278 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-10 08:35:46.278 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-10 08:35:46.280 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-10 08:35:46.281 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-10 08:35:46.282 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-10 08:47:02.742 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-10 08:47:02.743 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-10 08:47:02.746 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-10 08:47:02.747 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-10 08:47:02.748 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-10 08:47:02.749 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-10 08:47:02.749 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-10 08:47:02.750 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-10 08:47:02.754 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-10 08:47:02.755 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-10 08:47:02.755 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-10 08:47:02.756 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-10 08:47:02.756 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-10 08:47:02.757 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-10 08:47:02.757 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-10 08:47:02.758 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-10 08:47:02.758 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-10 08:47:02.759 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-10 08:47:02.759 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-10 08:47:02.760 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-10 08:47:02.760 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-10 08:47:02.761 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-10 08:47:02.761 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-10 08:47:02.762 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-10 08:47:02.762 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-10 08:47:02.764 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-10 08:47:02.768 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-10 08:47:02.768 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-10 08:47:02.769 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-10 08:47:02.769 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-10 08:47:02.770 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-10 08:47:02.770 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-10 08:47:02.770 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-10 08:47:02.771 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-10 08:47:02.772 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-10 08:47:02.856 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-10 08:47:02.857 PST i: [g2mupload] <main> Nothing to send
+2023-01-10 08:47:02.863 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-10 08:47:03.323 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-10 08:47:03.324 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-10 08:47:03.328 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-10 08:47:03.329 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-10 08:47:03.330 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-10 08:47:03.331 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-10 08:47:03.332 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-10 08:47:03.332 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()
+2023-01-10 14:47:02.717 PST i: [g2mupload] <main> GoToMeeting 10.19.0 Build 19950 G2MUpload started
+2023-01-10 14:47:02.718 PST i: [g2mupload] <main> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-10 14:47:02.718 PST d: [g2mupload] <main> CLogFileCreator::init() - log dir received
+2023-01-10 14:47:02.719 PST d: [g2mupload] <main> InetAPI::initializeWithConfig()
+2023-01-10 14:47:02.719 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::JInetConfig()-IOSPROXY; Creating JInetConfig object.
+2023-01-10 14:47:02.720 PST i: [g2mupload] <main> Installing service JInet Configuration
+2023-01-10 14:47:02.721 PST i: [g2mupload] <main> Installing Authentication Provider service
+2023-01-10 14:47:02.721 PST i: [g2mupload] <main> Installing Credentials Monitor service
+2023-01-10 14:47:02.722 PST i: [g2mupload] <main> Link Connect Monitoring is Enabled
+2023-01-10 14:47:02.723 PST i: [g2mupload] <main> Installing service HTTPS spec provider
+2023-01-10 14:47:02.723 PST i: [g2mupload] <main> Installing service HTTPS direct spec provider
+2023-01-10 14:47:02.723 PST i: [g2mupload] <main> Installing service HTTPS socket provider
+2023-01-10 14:47:02.723 PST i: [g2mupload] <main> Installing service WSS spec provider
+2023-01-10 14:47:02.724 PST i: [g2mupload] <main> Installing service WSS direct spec provider
+2023-01-10 14:47:02.724 PST i: [g2mupload] <main> Installing service WebSocket socket provider
+2023-01-10 14:47:02.724 PST i: [g2mupload] <main> Installing service JEDI spec provider
+2023-01-10 14:47:02.725 PST i: [g2mupload] <main> Installing service JEDI cached spec provider
+2023-01-10 14:47:02.725 PST i: [g2mupload] <main> Installing service JEDI direct spec provider
+2023-01-10 14:47:02.725 PST i: [g2mupload] <main> Installing service JEDI socket provider
+2023-01-10 14:47:02.726 PST i: [g2mupload] <main> Installing service Probe socket provider
+2023-01-10 14:47:02.726 PST i: [g2mupload] <main> Installing service FFO socket provider
+2023-01-10 14:47:02.726 PST i: [g2mupload] <main> AbstractCertificateLoader::_load: loaded live certificates
+2023-01-10 14:47:02.727 PST d: [g2mupload] <main> colcrypto::openssl::LibraryMgr::_initializeAndStart()
+2023-01-10 14:47:02.728 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-10 14:47:02.728 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::CBareConnMgr()
+2023-01-10 14:47:02.730 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-10 14:47:02.732 PST d: [g2mupload] <main> ## SLS  - Successfully installed 17 trusted certificate(s).
+2023-01-10 14:47:02.732 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CLibraryUtils::addTrustedCerts()
+2023-01-10 14:47:02.733 PST i: [g2mupload] <main> Installing service SSL factory
+2023-01-10 14:47:02.733 PST i: [g2mupload] <main> Installing service UDP spec provider
+2023-01-10 14:47:02.733 PST i: [g2mupload] <main> Installing service UDP socket provider
+2023-01-10 14:47:02.734 PST i: [g2mupload] <main> Installing ProxySnapshot service
+2023-01-10 14:47:02.734 PST i: [g2mupload] <main> sockets::jinet::JInetConfig::getSnapshotSnifferCreators()-IOSPROXY; Getting the sniffer creators.
+2023-01-10 14:47:02.735 PST d: [g2mupload] <main> InetAPI::initializeConnectionSpecMonitor()
+2023-01-10 14:47:02.735 PST d: [g2mupload] <main> InetAPI::initializeSocketMonitor()
+2023-01-10 14:47:02.798 PST i: [g2mupload] <main> Command line parameters: 
+2023-01-10 14:47:02.799 PST i: [g2mupload] <main> Nothing to send
+2023-01-10 14:47:02.825 PST d: [g2mupload] <main> InetAPI::shutdown()
+2023-01-10 14:47:03.125 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: initialization complete
+2023-01-10 14:47:03.126 PST i: [g2mupload] <LinkConnectMonitorInit> JLinkConnectMonitorWin32: shutting down
+2023-01-10 14:47:03.129 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-10 14:47:03.130 PST d: [g2mupload] <main> >>> linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-10 14:47:03.131 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::_cleanup()
+2023-01-10 14:47:03.131 PST d: [g2mupload] <main> <<< linksec::stream::openssl::CBareConnMgr::~CBareConnMgr()
+2023-01-10 14:47:03.132 PST d: [g2mupload] <main> >>> CLoggingForward::uninstall()
+2023-01-10 14:47:03.133 PST d: [g2mupload] <main> <<< CLoggingForward::uninstall()

@@ -1,0 +1,14 @@
+﻿2023-01-06 19:04:37.028 PST i: [g2mstart] <547> IntegrityUtils::logSecurityInfo() - 
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-06 19:04:37.433 PST i: [g2mstart.exe] <Loader> Microsoft Windows 10 Professional x64 Edition  (Build 19044)
+2023-01-06 19:04:37.435 PST d: [g2mstart.exe] <Loader> Created event COMM_AGENT_EXIT_OK_31ec
+2023-01-06 19:04:37.436 PST d: [g2mstart.exe] <Loader> Created event G2M_Launcher_Shut_Down_31ec
+2023-01-06 19:04:37.438 PST d: [g2mstart.exe] <Loader> Created event g2m_31ec
+2023-01-06 19:04:37.450 PST d: [g2mstart.exe] <LogManager> CLoaderLogManager::run() - less than 10 log directories exist.  No management needed.
+2023-01-06 19:04:37.497 PST d: [g2mstart.exe] <Watcher> ResetableThread::run() - ready event signaled.
+2023-01-06 19:04:37.498 PST d: [g2mstart.exe] <Watcher> CLoaderWatchdog::waitOnProcess() - waiting for the Comm Agent to exit (pid=14100)
+2023-01-06 19:57:53.099 PST i: [g2mstart.exe] <Loader> The initial plug-in process is shutting down.
+2023-01-06 19:58:00.041 PST d: [g2mstart.exe] <Watcher> The Comm Agent Exit event was signaled.
+2023-01-06 19:58:00.042 PST i: [g2mstart.exe] <Watcher> The watched process exited without error
+2023-01-06 19:58:00.047 PST i: [g2mstart.exe] <Loader> Loader complete... exiting

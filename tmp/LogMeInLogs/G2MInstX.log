@@ -1,0 +1,221 @@
+
+
+2023-01-07 08:34:33.824 +0530 i: [G2MInstX] <3790> ======================================================
+2023-01-07 08:34:33.824 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\LogMeInLogs\G2MInstX.log
+2023-01-07 08:34:33.825 +0530 i: [G2MInstX] <3790> GoToMeeting Installer Extractor build 19950
+2023-01-07 08:34:33.825 +0530 i: [G2MInstX] <3790> command-line args received:
+2023-01-07 08:34:33.825 +0530 i: [G2MInstX] <3790> 	"/Action Join" "/EGWAddress 23.239.230.255" "/EGWDNS egwglobal.gotomeeting.com" "/EGWPort 80,443,8200" "/MeetingID 600699309" "/Mode terse" "/Product g2m" "/colClientUiReadyEvent Global\CA430AF4-67A4-4A53-8CA2-D15183DB50F2" "/env live" "/sessionTrackingId clsJoin-6ee32125-c6e0-4867-a5b4-d988c88e99d1"
+2023-01-07 08:34:33.825 +0530 i: [G2MInstX] <3790> logSecurityInfo
+			OS ver 10.0,
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-07 08:34:33.827 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MInstaller.exe: wrote 33456 of 33456 bytes.
+2023-01-07 08:34:33.828 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MInstHigh.exe: wrote 33456 of 33456 bytes.
+2023-01-07 08:34:33.829 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MScrUtil64.exe: wrote 1766576 of 1766576 bytes.
+2023-01-07 08:34:33.831 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MScrUtil32.exe: wrote 1393328 of 1393328 bytes.
+2023-01-07 08:34:33.832 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MUI.exe: wrote 33456 of 33456 bytes.
+2023-01-07 08:34:33.833 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MComm.exe: wrote 33456 of 33456 bytes.
+2023-01-07 08:34:33.834 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MTranscoder.exe: wrote 33456 of 33456 bytes.
+2023-01-07 08:34:33.835 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MLauncher.exe: wrote 33456 of 33456 bytes.
+2023-01-07 08:34:33.941 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2M.Dll: wrote 48687264 of 48687264 bytes.
+2023-01-07 08:34:33.942 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MOutlookAddin.dll: wrote 214712 of 214712 bytes.
+2023-01-07 08:34:33.943 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\uninshlp.dll: wrote 17064 of 17064 bytes.
+2023-01-07 08:34:33.945 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MResource_en.dll: wrote 1212600 of 1212600 bytes.
+2023-01-07 08:34:33.950 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MCommonResources.dll: wrote 9340608 of 9340608 bytes.
+2023-01-07 08:34:33.952 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MOutlookAddin64.dll: wrote 251064 of 251064 bytes.
+2023-01-07 08:34:33.953 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MTestSound.wav: wrote 366470 of 366470 bytes.
+2023-01-07 08:34:33.954 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MResource_fr.dll: wrote 1244344 of 1244344 bytes.
+2023-01-07 08:34:33.956 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MResource_de.dll: wrote 1244344 of 1244344 bytes.
+2023-01-07 08:34:33.958 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MResource_es.dll: wrote 1225912 of 1225912 bytes.
+2023-01-07 08:34:33.959 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MResource_it.dll: wrote 1231544 of 1231544 bytes.
+2023-01-07 08:34:33.961 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MResource_zh.dll: wrote 1041592 of 1041592 bytes.
+2023-01-07 08:34:33.963 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MResource_ja.dll: wrote 1111736 of 1111736 bytes.
+2023-01-07 08:34:33.964 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MResource_ko.dll: wrote 1100472 of 1100472 bytes.
+2023-01-07 08:34:33.966 +0530 i: [G2MInstX] <3790> C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MResource_pt-BR.dll: wrote 1242296 of 1242296 bytes.
+2023-01-07 08:34:33.966 +0530 i: [G2MInstX] <3790> 	execute: C:\Users\Pench\AppData\Local\Temp\AC86F998-E6A4-4334-9B0C-2CF27B0F32E1\G2MInstaller.exe, args:
+2023-01-07 08:34:33.966 +0530 i: [G2MInstX] <3790> 	"/Action Join" "/DidInstall True" "/EGWAddress 23.239.230.255" "/EGWDNS egwglobal.gotomeeting.com" "/EGWPort 80,443,8200" "/MeetingID 600699309" "/Mode terse" "/Product g2m" "/colClientUiReadyEvent Global\CA430AF4-67A4-4A53-8CA2-D15183DB50F2" -delself "/env live" "/sessionTrackingId clsJoin-6ee32125-c6e0-4867-a5b4-d988c88e99d1"
+
+
+2023-01-09 18:06:14.654 +0530 i: [G2MInstX] <273C> ======================================================
+2023-01-09 18:06:14.654 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\LogMeInLogs\G2MInstX.log
+2023-01-09 18:06:14.654 +0530 i: [G2MInstX] <273C> GoToMeeting Installer Extractor build 19950
+2023-01-09 18:06:14.654 +0530 i: [G2MInstX] <273C> command-line args received:
+2023-01-09 18:06:14.654 +0530 i: [G2MInstX] <273C> 	"/Action ExtractOnly" "/ToDir C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\" /silent
+2023-01-09 18:06:14.654 +0530 i: [G2MInstX] <273C> logSecurityInfo
+			OS ver 10.0,
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-09 18:06:14.654 +0530 i: [G2MInstX] <273C> Silent mode.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\courgette.exe : wrote 648368 of 648368 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\FileCheckSums.txt : wrote 1182 of 1182 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2m.dll.courgette : wrote 930620 of 930620 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2mcomm.exe.courgette : wrote 4601 of 4601 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2mcommonresources.dll.bsdiff : wrote 4479 of 4479 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2minstaller.exe.courgette : wrote 4602 of 4602 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\G2MInstHigh.exe : wrote 31176 of 31176 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2mlauncher.exe.courgette : wrote 4598 of 4598 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2moutlookaddin.dll.courgette : wrote 4602 of 4602 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2moutlookaddin64.dll.courgette : wrote 4610 of 4610 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2mresource_de.dll.bsdiff : wrote 4473 of 4473 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2mresource_en.dll.bsdiff : wrote 4471 of 4471 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2mresource_es.dll.bsdiff : wrote 4469 of 4469 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2mresource_fr.dll.bsdiff : wrote 4466 of 4466 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2mresource_it.dll.bsdiff : wrote 4471 of 4471 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2mresource_ja.dll.bsdiff : wrote 4471 of 4471 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2mresource_ko.dll.bsdiff : wrote 4469 of 4469 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2mresource_pt-br.dll.bsdiff : wrote 4474 of 4474 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2mresource_zh.dll.bsdiff : wrote 4467 of 4467 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2mscrutil32.exe.courgette : wrote 50967 of 50967 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2mscrutil64.exe.courgette : wrote 181107 of 181107 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2mtestsound.wav.bsdiff : wrote 44 of 44 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2mtranscoder.exe.courgette : wrote 4603 of 4603 bytes.
+2023-01-09 18:06:14.670 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\g2mui.exe.courgette : wrote 4600 of 4600 bytes.
+2023-01-09 18:06:14.686 +0530 i: [G2MInstX] <273C> C:\Users\Pench\AppData\Local\Temp\1B0CEB53-2A10-4BEC-B22A-E978E01277C9\uninshlp.dll.courgette : wrote 5519 of 5519 bytes.
+
+
+2023-01-09 18:06:22.904 +0530 i: [G2MInstX] <3240> ======================================================
+2023-01-09 18:06:22.904 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\LogMeInLogs\G2MInstX.log
+2023-01-09 18:06:22.904 +0530 i: [G2MInstX] <3240> GoToMeeting Installer Extractor build 19932
+2023-01-09 18:06:22.904 +0530 i: [G2MInstX] <3240> command-line args received:
+2023-01-09 18:06:22.904 +0530 i: [G2MInstX] <3240> 	"/Action ExtractOnly" "/ToDir C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\" /silent
+2023-01-09 18:06:22.904 +0530 i: [G2MInstX] <3240> logSecurityInfo
+			OS ver 10.0,
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-09 18:06:22.904 +0530 i: [G2MInstX] <3240> Silent mode.
+2023-01-09 18:06:22.904 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\courgette.exe : wrote 646088 of 646088 bytes.
+2023-01-09 18:06:22.904 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\FileCheckSums.txt : wrote 1182 of 1182 bytes.
+2023-01-09 18:06:22.904 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2m.dll.courgette : wrote 209738 of 209738 bytes.
+2023-01-09 18:06:22.904 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2mcomm.exe.courgette : wrote 1226 of 1226 bytes.
+2023-01-09 18:06:22.904 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2mcommonresources.dll.bsdiff : wrote 1184 of 1184 bytes.
+2023-01-09 18:06:22.904 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2minstaller.exe.courgette : wrote 1225 of 1225 bytes.
+2023-01-09 18:06:22.904 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\G2MInstHigh.exe : wrote 31176 of 31176 bytes.
+2023-01-09 18:06:22.904 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2mlauncher.exe.courgette : wrote 1224 of 1224 bytes.
+2023-01-09 18:06:22.904 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2moutlookaddin.dll.courgette : wrote 1231 of 1231 bytes.
+2023-01-09 18:06:22.920 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2moutlookaddin64.dll.courgette : wrote 1235 of 1235 bytes.
+2023-01-09 18:06:22.920 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2mresource_de.dll.bsdiff : wrote 1357 of 1357 bytes.
+2023-01-09 18:06:22.920 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2mresource_en.dll.bsdiff : wrote 1442 of 1442 bytes.
+2023-01-09 18:06:22.920 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2mresource_es.dll.bsdiff : wrote 1355 of 1355 bytes.
+2023-01-09 18:06:22.920 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2mresource_fr.dll.bsdiff : wrote 1417 of 1417 bytes.
+2023-01-09 18:06:22.920 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2mresource_it.dll.bsdiff : wrote 1381 of 1381 bytes.
+2023-01-09 18:06:22.920 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2mresource_ja.dll.bsdiff : wrote 1142 of 1142 bytes.
+2023-01-09 18:06:22.920 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2mresource_ko.dll.bsdiff : wrote 1386 of 1386 bytes.
+2023-01-09 18:06:22.920 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2mresource_pt-br.dll.bsdiff : wrote 1436 of 1436 bytes.
+2023-01-09 18:06:22.920 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2mresource_zh.dll.bsdiff : wrote 1366 of 1366 bytes.
+2023-01-09 18:06:22.920 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2mscrutil32.exe.courgette : wrote 465 of 465 bytes.
+2023-01-09 18:06:22.920 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2mscrutil64.exe.courgette : wrote 468 of 468 bytes.
+2023-01-09 18:06:22.920 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2mtestsound.wav.bsdiff : wrote 44 of 44 bytes.
+2023-01-09 18:06:22.920 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2mtranscoder.exe.courgette : wrote 1227 of 1227 bytes.
+2023-01-09 18:06:22.920 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\g2mui.exe.courgette : wrote 1226 of 1226 bytes.
+2023-01-09 18:06:22.920 +0530 i: [G2MInstX] <3240> C:\Users\Pench\AppData\Local\Temp\83DA807F-85E5-4593-90A1-6D7694FF4FBC\uninshlp.dll.courgette : wrote 447 of 447 bytes.
+
+
+2023-01-09 18:06:33.810 +0530 i: [G2MInstX] <2E68> ======================================================
+2023-01-09 18:06:33.810 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\LogMeInLogs\G2MInstX.log
+2023-01-09 18:06:33.810 +0530 i: [G2MInstX] <2E68> GoToMeeting Installer Extractor build 19796
+2023-01-09 18:06:33.810 +0530 i: [G2MInstX] <2E68> command-line args received:
+2023-01-09 18:06:33.810 +0530 i: [G2MInstX] <2E68> 	"/Action ExtractOnly" "/ToDir C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\" /silent
+2023-01-09 18:06:33.810 +0530 i: [G2MInstX] <2E68> logSecurityInfo
+			OS ver 10.0,
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-09 18:06:33.810 +0530 i: [G2MInstX] <2E68> Silent mode.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\courgette.exe : wrote 646088 of 646088 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\FileCheckSums.txt : wrote 1182 of 1182 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2m.dll.courgette : wrote 260995 of 260995 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2mcomm.exe.courgette : wrote 3495 of 3495 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2mcommonresources.dll.bsdiff : wrote 3366 of 3366 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2minstaller.exe.courgette : wrote 3494 of 3494 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\G2MInstHigh.exe : wrote 31320 of 31320 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2mlauncher.exe.courgette : wrote 3497 of 3497 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2moutlookaddin.dll.courgette : wrote 3519 of 3519 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2moutlookaddin64.dll.courgette : wrote 3498 of 3498 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2mresource_de.dll.bsdiff : wrote 3372 of 3372 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2mresource_en.dll.bsdiff : wrote 3428 of 3428 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2mresource_es.dll.bsdiff : wrote 3375 of 3375 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2mresource_fr.dll.bsdiff : wrote 3376 of 3376 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2mresource_it.dll.bsdiff : wrote 3375 of 3375 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2mresource_ja.dll.bsdiff : wrote 3358 of 3358 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2mresource_ko.dll.bsdiff : wrote 3378 of 3378 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2mresource_pt-br.dll.bsdiff : wrote 3376 of 3376 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2mresource_zh.dll.bsdiff : wrote 3375 of 3375 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2mscrutil32.exe.courgette : wrote 3027 of 3027 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2mscrutil64.exe.courgette : wrote 3029 of 3029 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2mtestsound.wav.bsdiff : wrote 44 of 44 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2mtranscoder.exe.courgette : wrote 3496 of 3496 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\g2mui.exe.courgette : wrote 3495 of 3495 bytes.
+2023-01-09 18:06:33.826 +0530 i: [G2MInstX] <2E68> C:\Users\Pench\AppData\Local\Temp\7B5CCCCA-6652-4A1F-B77B-599C14E6CD73\uninshlp.dll.courgette : wrote 3015 of 3015 bytes.
+
+
+2023-01-09 18:06:52.794 +0530 i: [G2MInstX] <25FC> ======================================================
+2023-01-09 18:06:52.794 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\LogMeInLogs\G2MInstX.log
+2023-01-09 18:06:52.794 +0530 i: [G2MInstX] <25FC> GoToMeeting Installer Extractor build 19598
+2023-01-09 18:06:52.794 +0530 i: [G2MInstX] <25FC> command-line args received:
+2023-01-09 18:06:52.794 +0530 i: [G2MInstX] <25FC> 	"/Action ExtractOnly" "/ToDir C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\" /silent
+2023-01-09 18:06:52.794 +0530 i: [G2MInstX] <25FC> logSecurityInfo
+			OS ver 10.0,
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-09 18:06:52.794 +0530 i: [G2MInstX] <25FC> Silent mode.
+2023-01-09 18:06:52.794 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\courgette.exe : wrote 646232 of 646232 bytes.
+2023-01-09 18:06:52.794 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\FileCheckSums.txt : wrote 1182 of 1182 bytes.
+2023-01-09 18:06:52.794 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2m.dll.courgette : wrote 1794660 of 1794660 bytes.
+2023-01-09 18:06:52.794 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2mcomm.exe.courgette : wrote 1243 of 1243 bytes.
+2023-01-09 18:06:52.794 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2mcommonresources.dll.bsdiff : wrote 2126 of 2126 bytes.
+2023-01-09 18:06:52.794 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2minstaller.exe.courgette : wrote 1243 of 1243 bytes.
+2023-01-09 18:06:52.794 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\G2MInstHigh.exe : wrote 31320 of 31320 bytes.
+2023-01-09 18:06:52.794 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2mlauncher.exe.courgette : wrote 1245 of 1245 bytes.
+2023-01-09 18:06:52.794 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2moutlookaddin.dll.courgette : wrote 1256 of 1256 bytes.
+2023-01-09 18:06:52.794 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2moutlookaddin64.dll.courgette : wrote 1246 of 1246 bytes.
+2023-01-09 18:06:52.810 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2mresource_de.dll.bsdiff : wrote 2797 of 2797 bytes.
+2023-01-09 18:06:52.810 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2mresource_en.dll.bsdiff : wrote 3234 of 3234 bytes.
+2023-01-09 18:06:52.810 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2mresource_es.dll.bsdiff : wrote 2857 of 2857 bytes.
+2023-01-09 18:06:52.810 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2mresource_fr.dll.bsdiff : wrote 2783 of 2783 bytes.
+2023-01-09 18:06:52.810 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2mresource_it.dll.bsdiff : wrote 2681 of 2681 bytes.
+2023-01-09 18:06:52.810 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2mresource_ja.dll.bsdiff : wrote 2510 of 2510 bytes.
+2023-01-09 18:06:52.810 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2mresource_ko.dll.bsdiff : wrote 2537 of 2537 bytes.
+2023-01-09 18:06:52.810 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2mresource_pt-br.dll.bsdiff : wrote 2755 of 2755 bytes.
+2023-01-09 18:06:52.810 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2mresource_zh.dll.bsdiff : wrote 2420 of 2420 bytes.
+2023-01-09 18:06:52.810 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2mscrutil32.exe.courgette : wrote 5371 of 5371 bytes.
+2023-01-09 18:06:52.810 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2mscrutil64.exe.courgette : wrote 29675 of 29675 bytes.
+2023-01-09 18:06:52.810 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2mtestsound.wav.bsdiff : wrote 44 of 44 bytes.
+2023-01-09 18:06:52.810 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2mtranscoder.exe.courgette : wrote 1242 of 1242 bytes.
+2023-01-09 18:06:52.810 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\g2mui.exe.courgette : wrote 1245 of 1245 bytes.
+2023-01-09 18:06:52.810 +0530 i: [G2MInstX] <25FC> C:\Users\Pench\AppData\Local\Temp\B13D31BC-4E0B-409A-BF69-211EF83C1C6E\uninshlp.dll.courgette : wrote 2223 of 2223 bytes.
+
+
+2023-01-09 18:07:42.032 +0530 i: [G2MInstX] <2AC4> ======================================================
+2023-01-09 18:07:42.032 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\LogMeInLogs\G2MInstX.log
+2023-01-09 18:07:42.032 +0530 i: [G2MInstX] <2AC4> GoToMeeting Installer Extractor build 19228
+2023-01-09 18:07:42.032 +0530 i: [G2MInstX] <2AC4> command-line args received:
+2023-01-09 18:07:42.032 +0530 i: [G2MInstX] <2AC4> 	"/Action ExtractOnly" "/ToDir C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\" /silent
+2023-01-09 18:07:42.032 +0530 i: [G2MInstX] <2AC4> logSecurityInfo
+			OS ver 10.0,
+			lua=1, virtualization=1, inst-detect=1,
+			integrity level 0x00002000 (MEDIUM)
+2023-01-09 18:07:42.032 +0530 i: [G2MInstX] <2AC4> Silent mode.
+2023-01-09 18:07:42.032 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\courgette.exe : wrote 646232 of 646232 bytes.
+2023-01-09 18:07:42.032 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\FileCheckSums.txt : wrote 1182 of 1182 bytes.
+2023-01-09 18:07:42.047 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2m.dll.courgette : wrote 9869873 of 9869873 bytes.
+2023-01-09 18:07:42.047 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2mcomm.exe.courgette : wrote 1496 of 1496 bytes.
+2023-01-09 18:07:42.047 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2mcommonresources.dll.bsdiff : wrote 17471 of 17471 bytes.
+2023-01-09 18:07:42.047 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2minstaller.exe.courgette : wrote 1498 of 1498 bytes.
+2023-01-09 18:07:42.047 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\G2MInstHigh.exe : wrote 31320 of 31320 bytes.
+2023-01-09 18:07:42.047 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2mlauncher.exe.courgette : wrote 1494 of 1494 bytes.
+2023-01-09 18:07:42.047 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2moutlookaddin.dll.courgette : wrote 14395 of 14395 bytes.
+2023-01-09 18:07:42.047 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2moutlookaddin64.dll.courgette : wrote 34443 of 34443 bytes.
+2023-01-09 18:07:42.047 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2mresource_de.dll.bsdiff : wrote 2353 of 2353 bytes.
+2023-01-09 18:07:42.047 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2mresource_en.dll.bsdiff : wrote 2623 of 2623 bytes.
+2023-01-09 18:07:42.047 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2mresource_es.dll.bsdiff : wrote 2361 of 2361 bytes.
+2023-01-09 18:07:42.047 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2mresource_fr.dll.bsdiff : wrote 2382 of 2382 bytes.
+2023-01-09 18:07:42.047 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2mresource_it.dll.bsdiff : wrote 2353 of 2353 bytes.
+2023-01-09 18:07:42.047 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2mresource_ja.dll.bsdiff : wrote 2291 of 2291 bytes.
+2023-01-09 18:07:42.047 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2mresource_ko.dll.bsdiff : wrote 2322 of 2322 bytes.
+2023-01-09 18:07:42.047 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2mresource_pt-br.dll.bsdiff : wrote 2345 of 2345 bytes.
+2023-01-09 18:07:42.047 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2mresource_zh.dll.bsdiff : wrote 2229 of 2229 bytes.
+2023-01-09 18:07:42.063 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2mscrutil32.exe.courgette : wrote 220208 of 220208 bytes.
+2023-01-09 18:07:42.063 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2mscrutil64.exe.courgette : wrote 520090 of 520090 bytes.
+2023-01-09 18:07:42.063 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2mtestsound.wav.bsdiff : wrote 44 of 44 bytes.
+2023-01-09 18:07:42.063 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2mtranscoder.exe.courgette : wrote 1496 of 1496 bytes.
+2023-01-09 18:07:42.063 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\g2mui.exe.courgette : wrote 1494 of 1494 bytes.
+2023-01-09 18:07:42.063 +0530 i: [G2MInstX] <2AC4> C:\Users\Pench\AppData\Local\Temp\510F77C5-B9E6-40C4-8916-EF93305E501A\uninshlp.dll.courgette : wrote 1326 of 1326 bytes.
