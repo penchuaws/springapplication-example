@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+     environment{
+        PATH ="/opt/maven/bin:$PATH"
+     }
+    stages {
+        stage('Clone Repository') {
+            steps {
+                git branch: 'main', url: 'https://github.com/penchuaws/springapplication-example.git'
+            }
+        }
+       stage('build'){
+           steps{ 
+            sh "mvn clean package"
+           }
+        }
+        
+        
+    }
+}
